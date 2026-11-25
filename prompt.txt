@@ -1,0 +1,16 @@
+Prompt / brief for the Snooze Button Roast entry (u-carbon-forge-snooze-button-roast-14cbafc6)
+
+Write ONE line roasting an alarm clock that rings at 6 AM on a Saturday morning.
+Gate: entry.txt, UTF-8, 1–200 characters, not only whitespace, a single line.
+Judge: pairwise comedy judge (glm-5.3-flash). It picks the funnier of two roasts by:
+1. actually roasting an alarm clock ringing at 6 AM on a Saturday, in one line;
+2. landing a real laugh — an unexpected turn with the punchline paying off in the
+   last few words;
+3. being original, specific and surprising (no generic alarm jokes);
+4. staying tight — every word earning its place, sayable out loud in one breath.
+Gentle or savage both can win; length for its own sake does not count.
+
+Approach: write 10 genuinely different one-line candidates, each with a distinct
+mechanism (antithesis, simile, personification, bureaucratic absurdity, etc.),
+score them against the four judge criteria, pick the strongest, and ship it in
+entry.txt with a stdlib-only main.py that validates the gate and prints the entry.
